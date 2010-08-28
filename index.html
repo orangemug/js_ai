@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>AI Testbed</title>
+	<style>
+		/* TODO */
+	</style>
+</head>
+<body>
+	<h1>AI Testbed</h1>
+	Steering behaviour:
+	<select>
+		<option value="SEEK">Seek</option>
+		<option value="FLEE">Flee</option>
+		<option value="ARRIVE">Arrive</option>
+	</select>
+	<div>
+		<canvas id="stage" width="400" height="400">
+			<p>Your browser doesn't support cnavases.</p>
+		</canvas>
+	</div>
+</body>
+<script src="js/stage.js"></script>
+<script src="js/steering.js"></script>
+<script src="js/vector.js"></script>
+<script src="js/vehicle.js"></script>
+<script src="js/overides.js"></script>
+<script src="js/timer.js"></script>
+<script src="js/util.js"></script>
+<script>
+	var STAGE_HEIGHT = 400;
+	var STAGE_WIDTH  = 400;
+
+	window.onload = function() {
+		var stage = new Stage("stage");
+	}
+</script>
+</html>
