@@ -1,4 +1,5 @@
 *~
+*.swp
 trash/*
 ai_book_source/*
 book_source
